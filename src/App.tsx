@@ -4,6 +4,7 @@ import ProjectList from "./components/ProjectList";
 import NotFound from "./utils/NotFound";
 import ProjectPage from "./utils/ProjectPage";
 import { ThemeProvider } from "./utils/ThemeProvider";
+import { Toaster } from "@/components/ui/toaster";
 import Home from "@/components/Home";
 import About from "@/components/About";
 import Navbar from "@/components/NavBar";
@@ -27,6 +28,7 @@ const App: React.FC = () => {
           </div>
         </Router>
       </ThemeProvider>
+      <Toaster />
     </div>
   );
 };
