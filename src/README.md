@@ -15,6 +15,7 @@ This is just a list of different features and methodologies I used when creating
   - Folder references should go "/data/[folder_name]/" whatever because it is in the public folder
 - Use `rfc` to create a very basic return function for a new class!
 - Check out the GitHub action I have in `./.github/workflows` for the automation I included in the website!
+- If you want to add another object from [ShadCN](https://ui.shadcn.com/), type `npx shadcn-ui@latest add [name of object]` into the terminal at the root folder
 
 ## Ground Rules for the Codebase
 
