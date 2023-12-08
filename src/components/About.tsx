@@ -89,11 +89,11 @@ function About() {
           </p>
           <div className="object-container-grid space-x-5">
             {data.map((Class) => (
-              <Card key={Class.id} className="grid-cell bg-accent">
-                <CardTitle className="text-foreground pb-5">
+              <Card key={Class.id} className="grid-cell">
+                <CardTitle className="pb-5">
                   {Class.name}
                 </CardTitle>
-                <Separator className="bg-foreground" />
+                <Separator className="bg-card-foreground" />
                 <CardContent className="hidden-grid-content">
                   <p className="main-content-text">{Class.description}</p>
                 </CardContent>
